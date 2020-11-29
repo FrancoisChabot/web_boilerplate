@@ -22,7 +22,9 @@ This project compiles down to a 14KB `bundle.js` which is the smallest I've mana
 * jest-based testing
 * Auto-format and auto-lint 
 * Dev server
-* (mostly) Ready for differential serving.
+* Two production versions
+* * Legacy, with wide support
+* * Modern, small and fast, for modern browsers 
 * Tuned Babel/typescript configs:
 * * Tree Shaking works correctly
 * * Everything works cleanly during build, dev and test
