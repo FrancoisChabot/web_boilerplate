@@ -1,0 +1,23 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "modules": false,
+        "targets": {
+          "browsers": [
+            "> 2%, not dead"
+          ]
+        },
+        "corejs": 3,
+        "useBuiltIns": "usage"
+      }
+    ]
+  ],
+  "plugins": [
+    ["@babel/plugin-transform-react-jsx", { 
+      "pragma": "preact.h",
+      "pragmaFrag": "preact.Fragment"
+    }]
+  ]
+}

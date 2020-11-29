@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "preserve",
+    "jsxFactory": "preact.h",
+    "jsxFragmentFactory": "preact.Fragment",
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "strict" : true,
+    "sourceMap": true,
+    "lib": [
+      "dom"
+    ],
+    "moduleResolution":"node"
+  }
+}
